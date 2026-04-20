@@ -1,1 +1,2 @@
 
+Selective Perception for Robot:Task-Aware Attention in Multimodal VLA (它是作者用一个 VLM 标注流程 生成出来的：先把示范视频切成一段一段的 chunk，再把这段视频的若干帧、任务描述、工作流定义、夹爪状态、前几段的动作历史一起喂给 Qwen3-VL，让它按照预定义规则判断：这一段里每个 camera / sensor 应不应该被激活。)
